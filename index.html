@@ -11,8 +11,8 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaQueries.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -25,16 +25,16 @@
           </button>
         </div>
         <ul class="nav-links">
-          <li><a href="#section1">Homepage</a></li>
-          <li><a href="#section2">About Us</a></li>
-          <li><a href="#section3">Services</a></li>
-          <li><a href="#section4">Contact</a></li>
-          <li><a href="#">External</a></li>
+          <li><a class="myLink current" href="#section1">Homepage</a></li>
+          <li><a class="myLink" href="#section2">About Us</a></li>
+          <li><a class="myLink" href="#section3">Services</a></li>
+          <li><a class="myLink" href="#section4">Contact</a></li>
+          <!-- <li><a class="myLink" href="#section5">External</a></li> -->
         </ul>
       </div>
     </nav>
 
-    <div id="section1">
+    <div class="section" id="section1">
       <header id="header-area" class="parallax">
         <div class="container ">
           <h1>CONQUER</h1>
@@ -43,7 +43,7 @@
       </header>
     </div>
 
-    <div id="section2">
+    <div class="section" id="section2">
       <!-- Start Feature Area -->
       <section id="feature-area" class="about-section">
         <div class="container">
@@ -89,46 +89,47 @@
           </div>
         </div>
       </section>
-      
-      <!-- End Feature Area -->
+    </div>
 
-      <!-- Start Blog Area -->
-      <section id="blog-area">
-        <div class="container">
-          <div class="blog-content">
-            <img src="img/2-1.jpg" alt="Image" />
-            <h2>Two Column Left Side</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              tempor eros eget eros maximus, ut cursus sem euismod. Donec
-              iaculis tristique odio at consectetur. Nullam dignissim varius
-              suscipit. Sed in leo sit amet velit finibus pretium.<br /><br />
-              Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras
-              non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor
-              eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in
-              blandit metus.
-            </p>
-          </div>
-          <div class="blog-content">
-            <img src="img/2-2.jpg" alt="Image" />
-            <h2>Two Column Right Side</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              tempor eros eget eros maximus, ut cursus sem euismod. Donec
-              iaculis tristique odio at consectetur. Nullam dignissim varius
-              suscipit. Sed in leo sit amet velit finibus pretium.<br /><br />
-              Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras
-              non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor
-              eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in
-              blandit metus.
-            </p>
-            <span><a href="#">read more</a></span>
-          </div>
+    <!-- End Feature Area -->
+
+    <!-- Start Blog Area -->
+    <section id="blog-area">
+      <div class="container">
+        <div class="blog-content">
+          <img src="img/2-1.jpg" alt="Image" />
+          <h2>Two Column Left Side</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor
+            eros eget eros maximus, ut cursus sem euismod. Donec iaculis
+            tristique odio at consectetur. Nullam dignissim varius suscipit. Sed
+            in leo sit amet velit finibus pretium.<br /><br />
+            Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non
+            venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu
+            sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit
+            metus.
+          </p>
         </div>
-      </section>
+        <div class="blog-content">
+          <img src="img/2-2.jpg" alt="Image" />
+          <h2>Two Column Right Side</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor
+            eros eget eros maximus, ut cursus sem euismod. Donec iaculis
+            tristique odio at consectetur. Nullam dignissim varius suscipit. Sed
+            in leo sit amet velit finibus pretium.<br /><br />
+            Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non
+            venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu
+            sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit
+            metus.
+          </p>
+          <span><a href="#">read more</a></span>
+        </div>
+      </div>
+    </section>
     <!-- End Blog Area -->
 
-    <div id="section3">
+    <div class="section" id="section3">
       <!-- Start Services Area -->
       <section id="services-area" class="parallax">
         <div class="container">
@@ -216,9 +217,9 @@
           </div>
         </div>
       </section>
-    </div>  
-      <!-- End Testimornial Area -->
-    <div id="section4">
+    </div>
+    <!-- End Testimornial Area -->
+    <div class="section" id="section4">
       <!-- Start Contact Area -->
       <section id="contact-area" class="contact-section parallax">
         <div class="container">
@@ -297,6 +298,6 @@
       href="#top"
       style="position: fixed; z-index: 2147483647; bottom: 80px; display: block;"
     ></a>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

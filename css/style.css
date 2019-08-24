@@ -5,9 +5,9 @@
   box-sizing: border-box;
   list-style-type: none;
 }
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   width: 100%;
@@ -146,7 +146,7 @@ ul li a:hover,
 /* Start Main Menu */
 
 #header-area {
-  background: url('../img/bg-01.png'), linear-gradient(purple, blue);
+  background: url('../img/bg-01.png'), linear-gradient(red, blue);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -386,8 +386,8 @@ h2 {
 
 /* Start Contact CSS */
 #contact-area {
-  background: url('../img/bg-3.jpg'),
-    linear-gradient(red, blue) no-repeat center center fixed;
+  background: url('../img/bg-3.jpg'), linear-gradient(red, blue),
+    no-repeat center center fixed;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
