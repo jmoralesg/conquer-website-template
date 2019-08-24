@@ -146,7 +146,7 @@ ul li a:hover,
 /* Start Main Menu */
 
 #header-area {
-  background: url('img/bg-01.jpg'), linear-gradient(purple, blue);
+  background: url('../img/bg-01.png'), linear-gradient(purple, blue);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
