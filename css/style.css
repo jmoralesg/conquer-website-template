@@ -17,8 +17,8 @@ body {
 
 /* Global */
 .container {
-  width: 1170px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -129,7 +129,7 @@ ul li a:hover,
   margin: 8px 15px 8px;
   cursor: pointer;
   outline: none;
-  z-index: 2;
+  z-index: 10;
 }
 
 .icon-bar {
@@ -146,7 +146,7 @@ ul li a:hover,
 /* Start Main Menu */
 
 #header-area {
-  background: url('../img/bg-01.png'), linear-gradient(red, blue);
+  background: url('../img/bg-01.jpg'), linear-gradient(red, blue);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
