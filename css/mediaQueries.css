@@ -67,14 +67,14 @@
     width: 100%;
     flex-direction: column;
     clip-path: inset(0% 0% 100% 0%);
-    -webkit-lip-path: inset(0% 0% 100% 0%);
+    -webkit-clip-path: inset(0% 0% 100% 0%);
     transition: all 1s ease-out;
   }
 
   /* Responsive Nav */
   .nav-active {
     clip-path: inset(0% 0% 0% 0%);
-    -webkit-lip-path: inset(0% 0% 0% 0%);
+    -webkit-clip-path: inset(0% 0% 0% 0%);
   }
 
   .nav-links li {
