@@ -91,6 +91,7 @@
 
   .burger {
     display: block;
+    z-index: 10;git 
   }
 
   #header-area {
