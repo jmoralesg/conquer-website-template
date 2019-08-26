@@ -146,13 +146,14 @@ ul li a:hover,
 /* Start Main Menu */
 
 #header-area {
-  background: url('../img/bg-01.jpg'), linear-gradient(red, blue);
+  background-image: url('../img/bg-01.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 235px 0;
   text-align: center;
   height: 615px;
+  z-index: -2;
 }
 
 #header-area h1 {
@@ -305,6 +306,7 @@ ul li a:hover,
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  z-index: -2;
 }
 
 #services-area h1 {
@@ -392,6 +394,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: -1;
 }
 
 #contact-area .container {
