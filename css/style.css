@@ -152,6 +152,8 @@ ul li a:hover,
   background-size: cover;
   padding: 235px 0;
   text-align: center;
+  width: 100%;
+  max-width: 1800px;
   height: 615px;
   z-index: -2;
 }
