@@ -145,8 +145,7 @@ ul li a:hover,
 /* Start Main Menu */
 
 #header-area {
-  max-width: 1800px;
-  background-image: url('../img/bg-1.jpg');
+  background-image: url(../img/bg-1.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
@@ -302,7 +301,7 @@ ul li a:hover,
 }
 #services-area {
   padding: 65px 0px 85px;
-  background: url('../img/bg-2.jpg'), linear-gradient(red, blue);
+  background: url(../img/bg-2.jpg), linear-gradient(red, blue);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -393,7 +392,7 @@ h2 {
 
 #contact-area::before {
   content: '';
-  background-image: url('../img/bg-3.jpg');
+  background-image: url(../img/bg-3.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -553,7 +552,7 @@ hr {
 
 /* Image style */
 #scrollUp {
-  background-image: url('../img/top.png');
+  background-image: url(../img/top.png);
   position: fixed;
   right: 20px;
   bottom: 20px;
