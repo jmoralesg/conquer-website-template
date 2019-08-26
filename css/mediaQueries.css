@@ -181,6 +181,14 @@
     width: 100%;
     max-width: 480px;
   }
+
+  /* #header-area,
+  #services-area,
+  #contact-area::before {
+    background-size: 100% 100%;
+    height: auto;
+    background-repeat: no-repeat;
+  } */
   .nav-links li {
     padding: 0 20px;
   }
