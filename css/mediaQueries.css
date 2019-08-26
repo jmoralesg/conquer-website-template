@@ -19,8 +19,8 @@
     padding-top: 60px;
   }
   .container {
-    width: 750px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 750px;
   }
 
   .nav-links li {
@@ -60,7 +60,6 @@
     background-color: transparent;
   }
 
-  
   .nav-links {
     position: fixed;
     max-height: 0;
@@ -98,8 +97,6 @@
   }
 
   #header-area {
-    height: 70vh;
-    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,8 +159,8 @@
   }
 
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   #testimonial-area .container {
@@ -181,6 +178,18 @@
 
 @media only screen and (max-width: 480px) {
   #header-area {
-    height: 50vh;
+    height: 70vh;
+  }
+
+  #header-area h1 {
+    font-size: 54px;
+  }
+
+  #header-area h4 {
+    font-size: 22px;
+  }
+
+  #services-area {
+    padding: 10px 0 30px;
   }
 }
