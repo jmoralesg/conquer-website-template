@@ -149,7 +149,7 @@ ul li a:hover,
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 235px 0;
   text-align: center;
   height: 615px;
@@ -555,11 +555,11 @@ hr {
 
 /* Image style */
 #scrollUp {
-  background-image: url(../img/top1.png);
+  background-image: url(../img/top.png);
   position: fixed;
   right: 20px;
   bottom: 20px;
-  width: 30px;
-  height: 30px;
+  width: 38px;
+  height: 38px;
 }
 /* End Scroll To top */
