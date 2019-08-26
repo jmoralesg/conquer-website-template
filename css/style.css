@@ -28,9 +28,8 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  border: none;
 }
 h1 {
   font-size: 70px;
@@ -146,6 +145,7 @@ ul li a:hover,
 /* Start Main Menu */
 
 #header-area {
+  max-width: 1800px;
   background-image: url('../img/bg-1.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -303,7 +303,6 @@ ul li a:hover,
 #services-area {
   padding: 65px 0px 85px;
   background: url('../img/bg-2.jpg'), linear-gradient(red, blue);
-  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -389,12 +388,22 @@ h2 {
 
 /* Start Contact CSS */
 #contact-area {
-  background: url('../img/bg-3.jpg'), linear-gradient(red, blue),
-    no-repeat center center fixed;
+  position: relative;
+}
+
+#contact-area::before {
+  content: '';
+  background-image: url('../img/bg-3.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
   z-index: -1;
 }
 
