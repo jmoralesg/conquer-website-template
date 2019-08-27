@@ -143,9 +143,10 @@ ul li a:hover,
   transition: all 0.3s ease;
 }
 
-.parallax {
+#header-area.parallax,
+#services-area.parallax {
   background-size: cover;
-  background-position: center;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
