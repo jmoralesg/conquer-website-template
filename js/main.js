@@ -65,7 +65,7 @@ const parallaxEffect = () => {
     let offset = window.pageYOffset;
     for (let i = 0; i < parallax.length; i++) {
       parallax[i].style.backgroundPositionY =
-        (offset - parallax[i].offsetTop) * -0.5 + 'px';
+        (offset - parallax[i].offsetTop) * 0.7 + 'px';
     }
   });
 };
