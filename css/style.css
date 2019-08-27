@@ -294,12 +294,11 @@ ul li a:hover,
 
 #services-area {
   padding: 65px 0px 85px;
-  background: url(../img/bg-2.jpg) no-repeat;
+  background-image: url(../img/bg-2.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
   z-index: -2;
-  height: 100%;
 }
 
 #services-area h1 {
