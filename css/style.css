@@ -143,16 +143,20 @@ ul li a:hover,
   transition: all 0.3s ease;
 }
 
+.parallax {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* Start Main Menu */
 
 #header-area {
-  background-image: url(../img/bg-1.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/bg-1.jpg) no-repeat;
   padding: 235px 0;
   text-align: center;
-  min-height: 615px;
+  height: 615px;
   z-index: -2;
 }
 
@@ -301,12 +305,8 @@ ul li a:hover,
 }
 #services-area {
   padding: 65px 0px 85px;
-  background-image: url(../img/bg-2.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 349px;
+  background: url(../img/bg-2.jpg) no-repeat;
+  height: 349px;
   z-index: -2;
 }
 
