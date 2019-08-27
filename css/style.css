@@ -149,11 +149,10 @@ ul li a:hover,
   background-image: url(../img/bg-1.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /* background-position: top; */
   background-size: cover;
   padding: 235px 0;
   text-align: center;
-  height: 615px;
+  min-height: 615px;
   z-index: -2;
 }
 
@@ -304,10 +303,10 @@ ul li a:hover,
   padding: 65px 0px 85px;
   background-image: url(../img/bg-2.jpg);
   background-size: cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  height: 349px;
+  min-height: 349px;
   z-index: -2;
 }
 
@@ -392,16 +391,15 @@ h2 {
 #contact-area {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 #contact-area::before {
   content: '';
   background-image: url(../img/bg-3.jpg);
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   opacity: 0.6;
   top: 0;
   left: 0;
